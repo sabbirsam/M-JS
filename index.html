@@ -3,19 +3,43 @@
 
 <body>
 
-  <p>Before the script...</p>
+  <p>JS Learn...</p>
 
   
-
     <script>
+        "use strict";  
 
-        alert("Hello"); //// have semicolon so it will work normally->
+        // Double quotes: "Hello".
+        // Single quotes: 'Hello'.
+        // Backticks: `Hello`.    
+        
+        let fname = "Sabbir";
+        let lname = "Ahmed"
 
-        [1, 2].forEach(alert);
+        let res = `My name is ${fname}    ${lname}`; //My name is Sabbir    Ahmed // it also count the space, joss
 
-    </script>
+        let ares = "My Name is ${fname} ";  // My Name is ${fname} 
+        let ares2= "My name is ".$fname; // undefined not work
+
+        console.log(res);
+        
+        console.log(ares);
+        console.log(ares2);
+
+
+
+        
+        let name = "John";
+
+        // embed a variable
+        alert( `Hello, ${name}!` ); // Hello, John!
+
+        // embed an expression
+        alert( `the result is ${1 + 2}` ); // the result is 3
 
     
+    </script>
+
 
 
   <script src="my.js"></script>
