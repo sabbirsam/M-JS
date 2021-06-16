@@ -3,44 +3,33 @@
 
 <body>
 
-  <p>JS Learn...</p>
+  <p>The typeof operator...</p>
 
   
     <script>
         "use strict";  
-
-        // Double quotes: "Hello".
-        // Single quotes: 'Hello'.
-        // Backticks: `Hello`.    
+        //true and false
         
-        let fname = "Sabbir";
-        let lname = "Ahmed"
 
-        let res = `My name is ${fname}    ${lname}`; //My name is Sabbir    Ahmed // it also count the space, joss
-
-        let ares = "My Name is ${fname} ";  // My Name is ${fname} 
-        let ares2= "My name is ".$fname; // undefined not work
-
-        console.log(res);
+        alert( typeof undefined ); // undefined
+        alert( typeof 0 ); // number
         
-        console.log(ares);
-        console.log(ares2);
+        alert(typeof 10n) // "bigint"
 
+        alert(typeof true) // "boolean"
 
+        alert(typeof "foo") // "string"
 
+        alert(typeof Symbol("id")) // "symbol"
+
+        alert(typeof Math) // "object"  (1)
+
+        alert(typeof null) // "object"  (2)
+
+        alert(typeof alert) // "function"  (3)
         
-        let name = "John";
-
-        // embed a variable
-        alert( `Hello, ${name}!` ); // Hello, John!
-
-        // embed an expression
-        alert( `the result is ${1 + 2}` ); // the result is 3
-
-    
     </script>
-
-
+    
 
   <script src="my.js"></script>
   

@@ -389,6 +389,64 @@ The var keyword is almost the same as let. It also declares a variable, but in a
     
     </script>
 
+//True and False
+<script>
+        "use strict";  
+        //true and false
+        let nameTrue = true;
+        let ageFalse = false;
+        
+        console.log(nameTrue);
+        console.log(ageFalse);
+        
+    </script>
+
+<script>
+        "use strict";  
+        //true and false
+        let isGreaterss = 4 < 1;
+
+        alert( isGreaterss ); // true (the comparison result is "yes")
+        
+    </script>
+
+<script>
+        "use strict";  
+        //true and false
+        let age = null;
+
+        alert( age ); // output: null 
+
+        let age;
+
+        alert( age ); // undefined
+        
+    </script>
+
+<script>
+        "use strict";  
+        //true and false
+        
+
+        alert( typeof undefined ); // undefined
+        alert( typeof 0 ); // number
+        
+        alert(typeof 10n) // "bigint"
+
+        alert(typeof true) // "boolean"
+
+        alert(typeof "foo") // "string"
+
+        alert(typeof Symbol("id")) // "symbol"
+
+        alert(typeof Math) // "object"  (1)
+
+        alert(typeof null) // "object"  (2)
+
+        alert(typeof alert) // "function"  (3)
+        
+    </script>
+
     
 
 
