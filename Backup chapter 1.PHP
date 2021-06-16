@@ -490,6 +490,15 @@ The var keyword is almost the same as let. It also declares a variable, but in a
     </script>
 
 
+<script>
+        "use strict";  
+        // -------------------------------------------------------===================> confirm  
+   
+        let isBoss = confirm("Are you the boss?");
+ 
+      alert( isBoss ); // true if OK is pressed and result will be showed on aleart box
+        
+    </script>
     
 
 
