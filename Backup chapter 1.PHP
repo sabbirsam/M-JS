@@ -423,6 +423,13 @@ The var keyword is almost the same as let. It also declares a variable, but in a
         
     </script>
 
+<!-- alert
+        shows a message.
+    prompt
+        shows a message asking the user to input text. It returns the text or, if Cancel button or Esc is clicked, null.
+    confirm
+        shows a message and waits for the user to press “OK” or “Cancel”. It returns true for OK and false for Cancel/Esc. -->
+
 <script>
         "use strict";  
         //true and false
@@ -446,6 +453,42 @@ The var keyword is almost the same as let. It also declares a variable, but in a
         alert(typeof alert) // "function"  (3)
         
     </script>
+
+
+<script>
+        "use strict";  
+        //true and false
+        let name = "Ilya";
+        alert( `hello ${1}` ); //  hello 1
+        alert( `hello ${"name"}` ); // hello name
+        alert( `hello ${name}` ); // ?
+      
+        
+    </script>
+
+
+
+
+<script>
+        "use strict";  
+        // -------------------------------------------------------===================> prompt  
+       alert("Hello");
+
+     result = prompt(title, [default]);
+     let result = prompt("Welcome, Plese type Username");
+     let pass = prompt("Welcome, Plese type password");
+     alert(`Your are ${result} and your pass is ${pass}`);
+
+
+      let age = prompt('How old are you?', 100); // here 100 is default value and work as a placeholder also value is set 
+
+      alert(`You are ${age} years old!`); // You are 100 years old!
+
+
+      let test = prompt("Test", '');  // use this '' so it will not genetate error
+        
+    </script>
+
 
     
 
